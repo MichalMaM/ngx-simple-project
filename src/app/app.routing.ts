@@ -8,6 +8,10 @@ export const routes: Routes = [
     path: 'project',
     loadChildren: './project/project.module#ProjectModule',
   },
+  {
+    path: 'widget/project',
+    loadChildren: './project/project.module#ProjectModule',
+  },
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(routes);
